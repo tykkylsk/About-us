@@ -1,6 +1,7 @@
-/*.jumbotron {
-  background: white;
-    }*/
+.jumbotron {
+  background: black;
+  color: grey;
+    }
 
 .caption {
   width:100%;
@@ -51,6 +52,8 @@
 img {
   z-index: -2;
   margin: auto;
+  height: 250px;
+  width: 300px;
 
 }
 
@@ -64,4 +67,13 @@ img {
     background-color:#000;
     opacity:0.5;
     border-radius:30px;
+  }
+
+.footer {
+      border-top: 1px solid #000;
+      height: 35px;
+    }
+
+.end {
+  font-size: 20px;
 }
