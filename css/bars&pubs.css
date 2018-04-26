@@ -1,0 +1,56 @@
+body {
+	line-height: 1.88889;
+	color: #555753;
+	/*background: url(Bars.JPG);*/
+  margin: 10px;
+	padding: 10px;
+	}
+
+.jumbotron {
+  background:white;
+}
+
+.container h1 {
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+.container h2{
+  font-size: 20;
+  color: black;
+  bottom: 20px;
+}
+
+.background {
+    position: absolute;
+    left:-60;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+}
+
+p{
+  position: relative;
+  color: black;
+}
+
+img {
+  display: inline-block;
+  margin: -30px 60px 80px;
+}
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+  color: black;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+  color: black;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: grey;
+	}
